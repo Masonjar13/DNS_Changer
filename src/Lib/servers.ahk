@@ -16,6 +16,11 @@ dnsServers.push(new dns("CensurfriDNS (Anycast)"
         ,""
         ,"https://blog.censurfridns.dk/"))
 
+dnsServers.push(new dns("Cloudflare DNS"
+        ,"1.1.1.1"
+        ,"1.0.0.1"
+        ,"https://1.1.1.1"))
+
 dnsServers.push(new dns("Comodo Security DNS"
         ,"8.26.56.26"
         ,"8.20.247.20"
